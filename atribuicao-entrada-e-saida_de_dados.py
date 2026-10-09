@@ -11,6 +11,7 @@ quantidade_arroz = int(input("Digite a quantidade de Arroz: "))
 quantidade_feijao = int(input("Digite a quantidade de Feijaõ: "))
 quantidade_macarrao = int(input("Digite a quantidade de Macarrão: "))
 
+#Imprime sugestão para entrada dos dados
 #Digite a quantidade de Arroz: 2 unidades
 #Digite a quantidade de Feijão: 4 unidades
 #Digite a quantidade de Macarrão: 3 unidades
@@ -23,3 +24,5 @@ preco_total = (arroz * quantidade_arroz) + (feijao * quantidade_feijao) + (macar
 
 print("Tota do pedido é: R$", preco_total)
 
+#Imprime o total do pedido valor * quantidade
+#Tota do pedido é: R$ 116.93
